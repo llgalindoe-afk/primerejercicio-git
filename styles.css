@@ -79,7 +79,7 @@ body {
 header {
   position: sticky;
   top: 0;
-  background-color: var(--white);
+  background-color: var(--dark);
   box-shadow: var(--shadow-md);
   z-index: 1000;
   padding: var(--spacing-sm) var(--spacing-lg);
@@ -91,6 +91,7 @@ nav {
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
+  color: var(--white);
 }
 
 .logo {
@@ -102,15 +103,17 @@ nav {
 
 .logo:hover {
   color: var(--secondary);
+  
 }
 
 .nav-links {
   display: flex;
   gap: var(--spacing-lg);
+  color: var(--white);
 }
 
 .nav-links a {
-  color: var(--grey-dark);
+  color: var(--white);
   font-weight: var(--font-medium);
   transition: color var(--transition-base);
   position: relative;
