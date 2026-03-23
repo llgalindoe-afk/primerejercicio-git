@@ -97,7 +97,7 @@ nav {
 .logo {
   font-size: var(--fs-2xl);
   font-weight: var(--font-black);
-  color: var(--primary);
+  color: var(--white);
   transition: color var(--transition-base);
 }
 
@@ -175,6 +175,7 @@ main {
   max-width: 1200px;
   margin: 0 auto;
   padding: var(--spacing-2xl) var(--spacing-lg);
+  background-color: lightgrey;
 }
 
 /* Hero Section */
